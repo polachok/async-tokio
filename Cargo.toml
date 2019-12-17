@@ -1,0 +1,12 @@
+[package]
+name = "async-tokio"
+version = "0.1.0"
+authors = ["Alexander Polakov <a.polakov@iconic.vc>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+async-std = { version = "1.3", features = ["unstable"] }
+tokio = { version = "0.2", features = ["full"] }
+futures = "0.3"
